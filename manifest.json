@@ -1,0 +1,11 @@
+{
+    "name": "continue to read medium",
+    "manifest_version": 3,
+    "description": "Delete Medium.com uid cookie continue to read",
+    "version": "1.0",
+    "permissions": ["cookies", "tabs"],
+    "host_permissions": ["https://medium.com/*", "https://*.medium.com/*"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
